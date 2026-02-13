@@ -261,12 +261,24 @@ h5 { font-size: 1.05rem; }
 }
 
 .nav__logo {
-  font-family: var(--font-script);
-  font-size: 2rem;
-  font-weight: 600;
-  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   color: var(--primary);
-  letter-spacing: 0.02em;
+}
+
+.nav__logo-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.nav__logo-text {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .nav__logo-sub {
@@ -993,12 +1005,25 @@ h5 { font-size: 1.05rem; }
 }
 
 .footer__brand {
-  font-family: var(--font-script);
-  font-size: 1.4rem;
-  font-weight: 600;
-  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   color: var(--primary);
   margin-bottom: 0.5rem;
+}
+
+.footer__brand-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.footer__brand-text {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .footer__tagline {
