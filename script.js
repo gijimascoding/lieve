@@ -1,5 +1,5 @@
 /* ========================================
-   LIEVE — Co-Living in Toronto
+   CIRCLE — Co-Living in Toronto
    Main JavaScript
 ======================================== */
 
@@ -149,10 +149,10 @@ function handleTourForm(e) {
   Object.entries(formData).forEach(([key, value]) => {
     if (value) formSubmitData.append(key, value);
   });
-  formSubmitData.append('_subject', 'New Viewing Request — Lieve Coliving');
+  formSubmitData.append('_subject', 'New Viewing Request — Circle Coliving');
   formSubmitData.append('_template', 'table');
 
-  fetch('https://formsubmit.co/ajax/info@lieve.co', {
+  fetch('https://formsubmit.co/ajax/info@circle.co', {
     method: 'POST',
     body: formSubmitData
   }).catch(() => {});
@@ -187,10 +187,10 @@ function handleApplyForm(e) {
   Object.entries(formData).forEach(([key, value]) => {
     if (value) formSubmitData.append(key, value);
   });
-  formSubmitData.append('_subject', 'New Application — Lieve Coliving');
+  formSubmitData.append('_subject', 'New Application — Circle Coliving');
   formSubmitData.append('_template', 'table');
 
-  fetch('https://formsubmit.co/ajax/info@lieve.co', {
+  fetch('https://formsubmit.co/ajax/info@circle.co', {
     method: 'POST',
     body: formSubmitData
   }).catch(() => {});
