@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rooms & Locations | Lieve — Co-Living in Toronto</title>
+  <meta name="description" content="Explore Lieve's four co-living locations across Toronto's best neighborhoods. Fully furnished, all-inclusive.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>L</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Lieve</a>
+      <div class="nav__links">
+        <a href="locations.html" class="nav__link">Rooms</a>
+        <a href="index.html#community" class="nav__link">Community</a>
+        <a href="locations.html" class="nav__link">Locations</a>
+        <a href="index.html#faq" class="nav__link">FAQ</a>
+      </div>
+      <div class="nav__actions">
+        <a href="locations.html" class="nav__cta nav__cta--outline">Explore Rooms &rarr;</a>
+        <a href="#" class="nav__cta nav__cta--primary" data-modal="apply">Apply</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu">
+      <a href="locations.html">Rooms</a>
+      <a href="index.html#community">Community</a>
+      <a href="locations.html">Locations</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="#" data-modal="tour">Book a Viewing</a>
+      <a href="#" data-modal="apply">Apply</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Our Locations</h1>
+      <p>Six co-living homes across Toronto's best neighborhoods. Fully furnished. All inclusive. Move-in ready.</p>
+      <div class="page-header__meta">
+        <span class="page-header__filter">From C$240/week</span>
+        <span class="page-header__filter">6 locations</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Locations Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="locations-grid">
+        <!-- The York -->
+        <a href="property-york.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-york.jpg" alt="The York — Waterfront Toronto">
+            <div class="location-card__badge">From C$330/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The York</h3>
+            <p class="location-card__address">12 & 14 York Street</p>
+            <span class="location-card__neighborhood">Waterfront / Financial District</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$330 <span>/week</span></span>
+              <span class="location-card__rooms">4 room types</span>
+            </div>
+          </div>
+        </a>
+        <!-- The Queen -->
+        <a href="property-queen.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-queen.webp" alt="The Queen — Queen West">
+            <div class="location-card__badge">From C$385/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The Queen</h3>
+            <p class="location-card__address">215 Queen Street West</p>
+            <span class="location-card__neighborhood">Queen West / Entertainment District</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$385 <span>/week</span></span>
+              <span class="location-card__rooms">2 room types</span>
+            </div>
+          </div>
+        </a>
+        <!-- The Distillery -->
+        <a href="property-distillery.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-distillery.jpg" alt="The Distillery — Mill Street">
+            <div class="location-card__badge">From C$335/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The Distillery</h3>
+            <p class="location-card__address">70 Mill Street</p>
+            <span class="location-card__neighborhood">Distillery District / Corktown</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$335 <span>/week</span></span>
+              <span class="location-card__rooms">2 room types</span>
+            </div>
+          </div>
+        </a>
+        <!-- The Yonge -->
+        <a href="property-yonge.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-yonge.jpg" alt="The Yonge — 197 Yonge Street">
+            <div class="location-card__badge">From C$305/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The Yonge</h3>
+            <p class="location-card__address">197 Yonge Street</p>
+            <span class="location-card__neighborhood">Downtown Core / Eaton Centre</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$305 <span>/week</span></span>
+              <span class="location-card__rooms">3 room types</span>
+            </div>
+          </div>
+        </a>
+        <!-- The Maddox -->
+        <a href="property-maddox.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-maddox.jpg" alt="The Maddox — 201 Sherbourne Street">
+            <div class="location-card__badge">From C$240/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The Maddox</h3>
+            <p class="location-card__address">201 Sherbourne Street</p>
+            <span class="location-card__neighborhood">Garden District / Cabbagetown</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$240 <span>/week</span></span>
+              <span class="location-card__rooms">4 room types</span>
+            </div>
+          </div>
+        </a>
+        <!-- The Wellesley -->
+        <a href="property-wellesley.html" class="location-card fade-in">
+          <div class="location-card__image">
+            <img src="building-wellesley.jpg" alt="The Wellesley — 100 Wellesley Street East">
+            <div class="location-card__badge">From C$250/week</div>
+          </div>
+          <div class="location-card__body">
+            <h3 class="location-card__name">The Wellesley</h3>
+            <p class="location-card__address">100 Wellesley Street East</p>
+            <span class="location-card__neighborhood">The Village / Church-Wellesley</span>
+            <div class="location-card__footer">
+              <span class="location-card__price">From C$250 <span>/week</span></span>
+              <span class="location-card__rooms">3 room types</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="fade-in">
+        <h2>Not sure which location is right for you?</h2>
+        <p>Our team can help match you with the ideal room based on your preferences, budget, and lifestyle.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn--primary btn--lg" data-modal="apply">Start Your Application</a>
+          <a href="#" class="btn btn--outline btn--lg" style="border-color: rgba(245,237,228,0.3); color: var(--cream);" data-modal="tour">Book a Viewing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Lieve</div>
+          <p class="footer__tagline">Curated co-living homes for students and young professionals in Toronto.</p>
+          <div class="footer__social">
+            <a href="#">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+            </a>
+            <a href="#">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <div class="footer__links">
+            <a href="locations.html">Rooms</a>
+            <a href="locations.html">Locations</a>
+            <a href="#" data-modal="apply">Apply Now</a>
+            <a href="#" data-modal="tour">Book a Viewing</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Company</h4>
+          <div class="footer__links">
+            <a href="about.html">About Lieve</a>
+            <a href="index.html#community">Community</a>
+            <a href="mailto:hello@lieve.co">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Support</h4>
+          <div class="footer__links">
+            <a href="index.html#faq">FAQ</a>
+            <a href="terms.html">Safety &amp; Support</a>
+            <a href="privacy.html">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2028 Lieve Coliving. All rights reserved.</span>
+        <div class="footer__legal">
+          <a href="about.html">About Lieve</a>
+          <a href="terms.html">Learn More</a>
+          <a href="mailto:hello@lieve.co">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tour Modal -->
+  <div class="modal-overlay" id="tourModal">
+    <div class="modal" style="position: relative;">
+      <button class="modal__close" data-close-modal>&times;</button>
+      <div class="modal__header">
+        <h3 class="modal__title">Book a Viewing</h3>
+        <p class="modal__subtitle">Visit one of our homes in person. We'll arrange a private walkthrough at your convenience.</p>
+      </div>
+      <div class="modal__body">
+        <form onsubmit="handleTourForm(event)">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="name" required placeholder="Your full name">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" required placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" name="phone" placeholder="+1 (___) ___-____">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preferred Location</label>
+              <select name="property">
+                <option value="">Select a location</option>
+                <option value="The York — Waterfront">The York — Waterfront</option>
+                <option value="The Queen — Queen West">The Queen — Queen West</option>
+                <option value="The Distillery — Mill St">The Distillery — Mill St</option>
+                <option value="The Yonge — 197 Yonge">The Yonge — 197 Yonge</option>
+                <option value="The Maddox — Sherbourne">The Maddox — Sherbourne</option>
+                <option value="The Wellesley — Wellesley St">The Wellesley — Wellesley St</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <input type="date" name="date">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Additional Notes</label>
+            <textarea name="message" rows="3" placeholder="Anything we should know before your visit?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Request Viewing</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Apply Modal -->
+  <div class="modal-overlay" id="applyModal">
+    <div class="modal" style="position: relative;">
+      <button class="modal__close" data-close-modal>&times;</button>
+      <div class="modal__header">
+        <h3 class="modal__title">Apply for a Room</h3>
+        <p class="modal__subtitle">Begin your application. Our team will follow up within 48 hours.</p>
+      </div>
+      <div class="modal__body">
+        <form onsubmit="handleApplyForm(event)">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" required placeholder="First name">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" name="lastName" required placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" required placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" name="phone" placeholder="+1 (___) ___-____">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preferred Location</label>
+              <select name="property">
+                <option value="">Select a location</option>
+                <option value="The York — Waterfront">The York — Waterfront</option>
+                <option value="The Queen — Queen West">The Queen — Queen West</option>
+                <option value="The Distillery — Mill St">The Distillery — Mill St</option>
+                <option value="The Yonge — 197 Yonge">The Yonge — 197 Yonge</option>
+                <option value="The Maddox — Sherbourne">The Maddox — Sherbourne</option>
+                <option value="The Wellesley — Wellesley St">The Wellesley — Wellesley St</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Room Type</label>
+              <select name="roomType">
+                <option value="">Select type</option>
+                <option value="Private Basic">Private Basic</option>
+                <option value="Deluxe Suite">Deluxe Suite</option>
+                <option value="Flex Premium">Flex Premium</option>
+                <option value="Master Suite">Master Suite</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Move-in Date</label>
+              <input type="date" name="moveIn">
+            </div>
+            <div class="form-group">
+              <label>Anticipated Duration</label>
+              <select name="duration">
+                <option value="">Select duration</option>
+                <option value="1-3 months">1 – 3 months</option>
+                <option value="3-6 months">3 – 6 months</option>
+                <option value="6-12 months">6 – 12 months</option>
+                <option value="12+ months">12+ months</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Yourself</label>
+            <textarea name="message" rows="3" placeholder="A brief introduction — your school, program, why Toronto, etc."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
